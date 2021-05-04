@@ -1700,6 +1700,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .gallery{
+    margin-bottom: -50px; 
+  }
   .footer{
     padding-bottom: 0;
   }
@@ -1780,6 +1783,9 @@ body {
 }
 
 @media (max-width: 650px) {
+  .title{
+    line-height: 30px 
+  }
   .users__column {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 50%;
@@ -1801,6 +1807,27 @@ body {
 }
 
 @media (max-width: 600px) {
+  .customers{
+    margin-bottom: 40px;
+  }
+  .customers__content{
+    margin-bottom: 10px;
+  }
+  .customers__sub{
+    margin-bottom: 15px;
+  } 
+  .gallery__tabs{
+    margin-bottom: 32px; 
+  }
+  .gallery__sub {
+    padding-top: 25px;
+  } 
+  .service__sub{
+    margin-bottom: 15px;  
+  }
+  .contact__title{
+    fontsize: 28px;
+  }
   .product__list li::before {
     width: 20px;
     height: 20px;
