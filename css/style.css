@@ -1903,9 +1903,10 @@ body {
     line-height: 14px; 
   }
   .services__column {
+    flex: 0 1 61%;
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 60%;
-            flex: 0 1 60%;
+        -ms-flex: 0 1 61%;
+            flex: 0 1 61%;
   }
   .product__items-swiper.swiper-container {
     max-width: 430px;
