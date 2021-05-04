@@ -1899,14 +1899,20 @@ body {
   .product__link span {
     display: none;
   }
+  .intro__button{
+    line-height: 14px; 
+  }
   .services__column {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 70%;
-            flex: 0 1 70%;
+        -ms-flex: 0 1 60%;
+            flex: 0 1 60%;
   }
   .product__items-swiper.swiper-container {
     max-width: 430px;
     padding-top: 5px;
+  }
+  .services__column:nth-child(6){
+   flex: 1 1 60%;
   }
 }
 
